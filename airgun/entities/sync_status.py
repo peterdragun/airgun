@@ -27,11 +27,13 @@ class SyncStatusEntity(BaseEntity):
                 ('product1', 'repo2'),
                 ('product2', 'repo2'),
                 ('Red Hat Enterprise Linux Server', '7.5', 'x86_64',
-                 'Red Hat Enterprise Linux 7 Server RPMs x86_64 7.5'),
+                'Red Hat Enterprise Linux 7 Server RPMs x86_64 7.5'),
                 ('Red Hat Satellite Capsule',
                 'Red Hat Satellite Capsule 6.2 for RHEL 7 Server RPMs x86_64')
+
              ])
-        :return the results text in RESULT columns
+
+        :return: the results text in RESULT columns
         """
         view = self.navigate_to(self, 'All')
         repo_nodes = [view.table.get_node_from_path(repo_path)

@@ -19,7 +19,7 @@ from airgun.widgets import (
 class ItemValueList(Widget):
     """List of name-value pairs. Each name element from every pair is clickable
 
-     Example html representation::
+    Example html representation::
 
     <ul>
         <li>
