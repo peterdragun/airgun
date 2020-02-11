@@ -1,478 +1,401 @@
-airgun\.entities package
-========================
+:mod:`airgun.entities`
+======================
 
-.. toctree::
+.. automodule:: airgun.entities
+    :members:
 
-    airgun.entities.rhai
-
-airgun\.entities\.activationkey module
---------------------------------------
+:mod:`airgun.entities.activationkey`
+------------------------------------
 
 .. automodule:: airgun.entities.activationkey
-    :members:
-    :undoc-members:
-    :show-inheritance:
+   :members:
 
-airgun\.entities\.architecture module
--------------------------------------
-
-.. automodule:: airgun.entities.architecture
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-airgun\.entities\.audit module
-------------------------------
-
-.. automodule:: airgun.entities.audit
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-airgun\.entities\.base module
------------------------------
-
-.. automodule:: airgun.entities.base
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-airgun\.entities\.bookmark module
----------------------------------
-
-.. automodule:: airgun.entities.bookmark
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-airgun\.entities\.computeprofile module
----------------------------------------
-
-.. automodule:: airgun.entities.computeprofile
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-airgun\.entities\.computeresource module
-----------------------------------------
-
-.. automodule:: airgun.entities.computeresource
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-airgun\.entities\.configgroup module
-------------------------------------
-
-.. automodule:: airgun.entities.configgroup
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-airgun\.entities\.containerimagetag module
-------------------------------------------
-
-.. automodule:: airgun.entities.containerimagetag
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-airgun\.entities\.contentcredential module
-------------------------------------------
-
-.. automodule:: airgun.entities.contentcredential
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-airgun\.entities\.contenthost module
-------------------------------------
-
-.. automodule:: airgun.entities.contenthost
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-airgun\.entities\.contentview module
-------------------------------------
-
-.. automodule:: airgun.entities.contentview
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-airgun\.entities\.contentviewfilter module
-------------------------------------------
-
-.. automodule:: airgun.entities.contentviewfilter
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-airgun\.entities\.dashboard module
-----------------------------------
-
-.. automodule:: airgun.entities.dashboard
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-airgun\.entities\.discoveredhosts module
-----------------------------------------
-
-.. automodule:: airgun.entities.discoveredhosts
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-airgun\.entities\.discoveryrule module
---------------------------------------
-
-.. automodule:: airgun.entities.discoveryrule
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-airgun\.entities\.domain module
--------------------------------
-
-.. automodule:: airgun.entities.domain
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-airgun\.entities\.errata module
--------------------------------
-
-.. automodule:: airgun.entities.errata
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-airgun\.entities\.filter module
--------------------------------
-
-.. automodule:: airgun.entities.filter
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-airgun\.entities\.hardware\_model module
-----------------------------------------
-
-.. automodule:: airgun.entities.hardware_model
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-airgun\.entities\.host module
------------------------------
-
-.. automodule:: airgun.entities.host
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-airgun\.entities\.hostcollection module
----------------------------------------
-
-.. automodule:: airgun.entities.hostcollection
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-airgun\.entities\.hostgroup module
-----------------------------------
-
-.. automodule:: airgun.entities.hostgroup
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-airgun\.entities\.http\_proxy module
-------------------------------------
-
-.. automodule:: airgun.entities.http_proxy
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-airgun\.entities\.job\_invocation module
-----------------------------------------
-
-.. automodule:: airgun.entities.job_invocation
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-airgun\.entities\.job\_template module
---------------------------------------
-
-.. automodule:: airgun.entities.job_template
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-airgun\.entities\.ldap\_authentication module
----------------------------------------------
-
-.. automodule:: airgun.entities.ldap_authentication
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-airgun\.entities\.lifecycleenvironment module
----------------------------------------------
-
-.. automodule:: airgun.entities.lifecycleenvironment
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-airgun\.entities\.location module
----------------------------------
-
-.. automodule:: airgun.entities.location
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-airgun\.entities\.login module
-------------------------------
-
-.. automodule:: airgun.entities.login
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-airgun\.entities\.media module
-------------------------------
-
-.. automodule:: airgun.entities.media
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-airgun\.entities\.modulestream module
--------------------------------------
-
-.. automodule:: airgun.entities.modulestream
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-airgun\.entities\.organization module
--------------------------------------
-
-.. automodule:: airgun.entities.organization
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-airgun\.entities\.os module
----------------------------
-
-.. automodule:: airgun.entities.os
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-airgun\.entities\.oscapcontent module
--------------------------------------
-
-.. automodule:: airgun.entities.oscapcontent
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-airgun\.entities\.oscappolicy module
-------------------------------------
-
-.. automodule:: airgun.entities.oscappolicy
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-airgun\.entities\.oscaptailoringfile module
--------------------------------------------
-
-.. automodule:: airgun.entities.oscaptailoringfile
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-airgun\.entities\.package module
---------------------------------
-
-.. automodule:: airgun.entities.package
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-airgun\.entities\.partitiontable module
----------------------------------------
-
-.. automodule:: airgun.entities.partitiontable
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-airgun\.entities\.product module
---------------------------------
-
-.. automodule:: airgun.entities.product
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-airgun\.entities\.provisioning\_template module
------------------------------------------------
-
-.. automodule:: airgun.entities.provisioning_template
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-airgun\.entities\.puppet\_class module
---------------------------------------
-
-.. automodule:: airgun.entities.puppet_class
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-airgun\.entities\.puppet\_environment module
---------------------------------------------
-
-.. automodule:: airgun.entities.puppet_environment
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-airgun\.entities\.redhat\_repository module
--------------------------------------------
-
-.. automodule:: airgun.entities.redhat_repository
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-airgun\.entities\.report\_template module
------------------------------------------
-
-.. automodule:: airgun.entities.report_template
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-airgun\.entities\.repository module
+:mod:`airgun.entities.architecture`
 -----------------------------------
 
-.. automodule:: airgun.entities.repository
-    :members:
-    :undoc-members:
-    :show-inheritance:
+.. automodule:: airgun.entities.architecture
+   :members:
 
-airgun\.entities\.role module
------------------------------
+:mod:`airgun.entities.audit`
+----------------------------
 
-.. automodule:: airgun.entities.role
-    :members:
-    :undoc-members:
-    :show-inheritance:
+.. automodule:: airgun.entities.audit
+   :members:
 
-airgun\.entities\.settings module
----------------------------------
+:mod:`airgun.entities.base`
+---------------------------
 
-.. automodule:: airgun.entities.settings
-    :members:
-    :undoc-members:
-    :show-inheritance:
+.. automodule:: airgun.entities.base
+   :members:
 
-airgun\.entities\.smart\_class\_parameter module
-------------------------------------------------
-
-.. automodule:: airgun.entities.smart_class_parameter
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-airgun\.entities\.smart\_variable module
-----------------------------------------
-
-.. automodule:: airgun.entities.smart_variable
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-airgun\.entities\.subnet module
+:mod:`airgun.entities.bookmark`
 -------------------------------
 
-.. automodule:: airgun.entities.subnet
-    :members:
-    :undoc-members:
-    :show-inheritance:
+.. automodule:: airgun.entities.bookmark
+   :members:
 
-airgun\.entities\.subscription module
+:mod:`airgun.entities.computeprofile`
 -------------------------------------
 
-.. automodule:: airgun.entities.subscription
-    :members:
-    :undoc-members:
-    :show-inheritance:
+.. automodule:: airgun.entities.computeprofile
+   :members:
 
-airgun\.entities\.sync\_status module
--------------------------------------
+:mod:`airgun.entities.computeresource`
+--------------------------------------
 
-.. automodule:: airgun.entities.sync_status
-    :members:
-    :undoc-members:
-    :show-inheritance:
+.. automodule:: airgun.entities.computeresource
+   :members:
 
-airgun\.entities\.syncplan module
----------------------------------
-
-.. automodule:: airgun.entities.syncplan
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-airgun\.entities\.task module
------------------------------
-
-.. automodule:: airgun.entities.task
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-airgun\.entities\.trend module
-------------------------------
-
-.. automodule:: airgun.entities.trend
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-airgun\.entities\.user module
------------------------------
-
-.. automodule:: airgun.entities.user
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-airgun\.entities\.usergroup module
+:mod:`airgun.entities.configgroup`
 ----------------------------------
 
-.. automodule:: airgun.entities.usergroup
-    :members:
-    :undoc-members:
-    :show-inheritance:
+.. automodule:: airgun.entities.configgroup
+   :members:
 
-airgun\.entities\.virtwho\_configure module
+:mod:`airgun.entities.containerimagetag`
+----------------------------------------
+
+.. automodule:: airgun.entities.containerimagetag
+   :members:
+
+:mod:`airgun.entities.contentcredential`
+----------------------------------------
+
+.. automodule:: airgun.entities.contentcredential
+   :members:
+
+:mod:`airgun.entities.contenthost`
+----------------------------------
+
+.. automodule:: airgun.entities.contenthost
+   :members:
+
+:mod:`airgun.entities.contentviewfilter`
+----------------------------------------
+
+.. automodule:: airgun.entities.contentviewfilter
+   :members:
+
+:mod:`airgun.entities.contentview`
+----------------------------------
+
+.. automodule:: airgun.entities.contentview
+   :members:
+
+:mod:`airgun.entities.dashboard`
+--------------------------------
+
+.. automodule:: airgun.entities.dashboard
+   :members:
+
+:mod:`airgun.entities.discoveredhosts`
+--------------------------------------
+
+.. automodule:: airgun.entities.discoveredhosts
+   :members:
+
+:mod:`airgun.entities.discoveryrule`
+------------------------------------
+
+.. automodule:: airgun.entities.discoveryrule
+   :members:
+
+:mod:`airgun.entities.domain`
+-----------------------------
+
+.. automodule:: airgun.entities.domain
+   :members:
+
+:mod:`airgun.entities.errata`
+-----------------------------
+
+.. automodule:: airgun.entities.errata
+   :members:
+
+:mod:`airgun.entities.filter`
+-----------------------------
+
+.. automodule:: airgun.entities.filter
+   :members:
+
+:mod:`airgun.entities.hardware_model`
+-------------------------------------
+
+.. automodule:: airgun.entities.hardware_model
+   :members:
+
+:mod:`airgun.entities.hostcollection`
+-------------------------------------
+
+.. automodule:: airgun.entities.hostcollection
+   :members:
+
+:mod:`airgun.entities.hostgroup`
+--------------------------------
+
+.. automodule:: airgun.entities.hostgroup
+   :members:
+
+:mod:`airgun.entities.host`
+---------------------------
+
+.. automodule:: airgun.entities.host
+   :members:
+
+:mod:`airgun.entities.http_proxy`
+---------------------------------
+
+.. automodule:: airgun.entities.http_proxy
+   :members:
+
+:mod:`airgun.entities.job_invocation`
+-------------------------------------
+
+.. automodule:: airgun.entities.job_invocation
+   :members:
+
+:mod:`airgun.entities.job_template`
+-----------------------------------
+
+.. automodule:: airgun.entities.job_template
+   :members:
+
+:mod:`airgun.entities.ldap_authentication`
+------------------------------------------
+
+.. automodule:: airgun.entities.ldap_authentication
+   :members:
+
+:mod:`airgun.entities.lifecycleenvironment`
 -------------------------------------------
 
+.. automodule:: airgun.entities.lifecycleenvironment
+   :members:
+
+:mod:`airgun.entities.location`
+-------------------------------
+
+.. automodule:: airgun.entities.location
+   :members:
+
+:mod:`airgun.entities.login`
+----------------------------
+
+.. automodule:: airgun.entities.login
+   :members:
+
+:mod:`airgun.entities.media`
+----------------------------
+
+.. automodule:: airgun.entities.media
+   :members:
+
+:mod:`airgun.entities.modulestream`
+-----------------------------------
+
+.. automodule:: airgun.entities.modulestream
+   :members:
+
+:mod:`airgun.entities.organization`
+-----------------------------------
+
+.. automodule:: airgun.entities.organization
+   :members:
+
+:mod:`airgun.entities.oscapcontent`
+-----------------------------------
+
+.. automodule:: airgun.entities.oscapcontent
+   :members:
+
+:mod:`airgun.entities.oscappolicy`
+----------------------------------
+
+.. automodule:: airgun.entities.oscappolicy
+   :members:
+
+:mod:`airgun.entities.oscaptailoringfile`
+-----------------------------------------
+
+.. automodule:: airgun.entities.oscaptailoringfile
+   :members:
+
+:mod:`airgun.entities.os`
+-------------------------
+
+.. automodule:: airgun.entities.os
+   :members:
+
+:mod:`airgun.entities.package`
+------------------------------
+
+.. automodule:: airgun.entities.package
+   :members:
+
+:mod:`airgun.entities.partitiontable`
+-------------------------------------
+
+.. automodule:: airgun.entities.partitiontable
+   :members:
+
+:mod:`airgun.entities.product`
+------------------------------
+
+.. automodule:: airgun.entities.product
+   :members:
+
+:mod:`airgun.entities.provisioning_template`
+--------------------------------------------
+
+.. automodule:: airgun.entities.provisioning_template
+   :members:
+
+:mod:`airgun.entities.puppet_class`
+-----------------------------------
+
+.. automodule:: airgun.entities.puppet_class
+   :members:
+
+:mod:`airgun.entities.puppet_environment`
+-----------------------------------------
+
+.. automodule:: airgun.entities.puppet_environment
+   :members:
+
+:mod:`airgun.entities.redhat_repository`
+----------------------------------------
+
+.. automodule:: airgun.entities.redhat_repository
+   :members:
+
+:mod:`airgun.entities.report_template`
+--------------------------------------
+
+.. automodule:: airgun.entities.report_template
+   :members:
+
+:mod:`airgun.entities.repository`
+---------------------------------
+
+.. automodule:: airgun.entities.repository
+   :members:
+
+:mod:`airgun.entities.rhai.action`
+----------------------------------
+
+.. automodule:: airgun.entities.rhai.action
+   :members:
+
+:mod:`airgun.entities.rhai.base`
+--------------------------------
+
+.. automodule:: airgun.entities.rhai.base
+   :members:
+
+:mod:`airgun.entities.rhai.inventory`
+-------------------------------------
+
+.. automodule:: airgun.entities.rhai.inventory
+   :members:
+
+:mod:`airgun.entities.rhai.manage`
+----------------------------------
+
+.. automodule:: airgun.entities.rhai.manage
+   :members:
+
+:mod:`airgun.entities.rhai.overview`
+------------------------------------
+
+.. automodule:: airgun.entities.rhai.overview
+   :members:
+
+:mod:`airgun.entities.rhai.plan`
+--------------------------------
+
+.. automodule:: airgun.entities.rhai.plan
+   :members:
+
+:mod:`airgun.entities.rhai.rule`
+--------------------------------
+
+.. automodule:: airgun.entities.rhai.rule
+   :members:
+
+:mod:`airgun.entities.role`
+---------------------------
+
+.. automodule:: airgun.entities.role
+   :members:
+
+:mod:`airgun.entities.settings`
+-------------------------------
+
+.. automodule:: airgun.entities.settings
+   :members:
+
+:mod:`airgun.entities.smart_class_parameter`
+--------------------------------------------
+
+.. automodule:: airgun.entities.smart_class_parameter
+   :members:
+
+:mod:`airgun.entities.smart_variable`
+-------------------------------------
+
+.. automodule:: airgun.entities.smart_variable
+   :members:
+
+:mod:`airgun.entities.subnet`
+-----------------------------
+
+.. automodule:: airgun.entities.subnet
+   :members:
+
+:mod:`airgun.entities.subscription`
+-----------------------------------
+
+.. automodule:: airgun.entities.subscription
+   :members:
+
+:mod:`airgun.entities.syncplan`
+-------------------------------
+
+.. automodule:: airgun.entities.syncplan
+   :members:
+
+:mod:`airgun.entities.sync_status`
+----------------------------------
+
+.. automodule:: airgun.entities.sync_status
+   :members:
+
+:mod:`airgun.entities.task`
+---------------------------
+
+.. automodule:: airgun.entities.task
+   :members:
+
+:mod:`airgun.entities.trend`
+----------------------------
+
+.. automodule:: airgun.entities.trend
+   :members:
+
+:mod:`airgun.entities.usergroup`
+--------------------------------
+
+.. automodule:: airgun.entities.usergroup
+   :members:
+
+:mod:`airgun.entities.user`
+---------------------------
+
+.. automodule:: airgun.entities.user
+   :members:
+
+:mod:`airgun.entities.virtwho_configure`
+----------------------------------------
+
 .. automodule:: airgun.entities.virtwho_configure
-    :members:
-    :undoc-members:
-    :show-inheritance:
+   :members:

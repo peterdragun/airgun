@@ -1,482 +1,365 @@
-airgun\.views package
-=====================
+:mod:`airgun.views`
+===================
 
-airgun\.views\.activationkey module
------------------------------------
+.. automodule:: airgun.views
+    :members:
+
+:mod:`airgun.views.activationkey`
+---------------------------------
 
 .. automodule:: airgun.views.activationkey
-    :members:
-    :undoc-members:
-    :show-inheritance:
+   :members:
 
-airgun\.views\.architecture module
-----------------------------------
-
-.. automodule:: airgun.views.architecture
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-airgun\.views\.audit module
----------------------------
-
-.. automodule:: airgun.views.audit
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-airgun\.views\.bookmark module
-------------------------------
-
-.. automodule:: airgun.views.bookmark
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-airgun\.views\.common module
-----------------------------
-
-.. automodule:: airgun.views.common
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-airgun\.views\.computeprofile module
-------------------------------------
-
-.. automodule:: airgun.views.computeprofile
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-airgun\.views\.computeresource module
--------------------------------------
-
-.. automodule:: airgun.views.computeresource
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-airgun\.views\.configgroup module
----------------------------------
-
-.. automodule:: airgun.views.configgroup
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-airgun\.views\.containerimagetag module
----------------------------------------
-
-.. automodule:: airgun.views.containerimagetag
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-airgun\.views\.contentcredential module
----------------------------------------
-
-.. automodule:: airgun.views.contentcredential
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-airgun\.views\.contenthost module
----------------------------------
-
-.. automodule:: airgun.views.contenthost
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-airgun\.views\.contentview module
----------------------------------
-
-.. automodule:: airgun.views.contentview
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-airgun\.views\.contentviewfilter module
----------------------------------------
-
-.. automodule:: airgun.views.contentviewfilter
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-airgun\.views\.dashboard module
--------------------------------
-
-.. automodule:: airgun.views.dashboard
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-airgun\.views\.discoveredhosts module
--------------------------------------
-
-.. automodule:: airgun.views.discoveredhosts
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-airgun\.views\.discoveryrule module
------------------------------------
-
-.. automodule:: airgun.views.discoveryrule
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-airgun\.views\.domain module
-----------------------------
-
-.. automodule:: airgun.views.domain
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-airgun\.views\.errata module
-----------------------------
-
-.. automodule:: airgun.views.errata
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-airgun\.views\.filter module
-----------------------------
-
-.. automodule:: airgun.views.filter
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-airgun\.views\.hardware\_model module
--------------------------------------
-
-.. automodule:: airgun.views.hardware_model
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-airgun\.views\.host module
---------------------------
-
-.. automodule:: airgun.views.host
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-airgun\.views\.hostcollection module
-------------------------------------
-
-.. automodule:: airgun.views.hostcollection
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-airgun\.views\.hostgroup module
--------------------------------
-
-.. automodule:: airgun.views.hostgroup
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-airgun\.views\.http\_proxy module
----------------------------------
-
-.. automodule:: airgun.views.http_proxy
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-airgun\.views\.job\_invocation module
--------------------------------------
-
-.. automodule:: airgun.views.job_invocation
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-airgun\.views\.job\_template module
------------------------------------
-
-.. automodule:: airgun.views.job_template
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-airgun\.views\.ldapauthentication module
-----------------------------------------
-
-.. automodule:: airgun.views.ldapauthentication
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-airgun\.views\.lifecycleenvironment module
-------------------------------------------
-
-.. automodule:: airgun.views.lifecycleenvironment
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-airgun\.views\.location module
-------------------------------
-
-.. automodule:: airgun.views.location
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-airgun\.views\.login module
----------------------------
-
-.. automodule:: airgun.views.login
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-airgun\.views\.media module
----------------------------
-
-.. automodule:: airgun.views.media
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-airgun\.views\.modulestream module
-----------------------------------
-
-.. automodule:: airgun.views.modulestream
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-airgun\.views\.organization module
-----------------------------------
-
-.. automodule:: airgun.views.organization
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-airgun\.views\.os module
-------------------------
-
-.. automodule:: airgun.views.os
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-airgun\.views\.oscapcontent module
-----------------------------------
-
-.. automodule:: airgun.views.oscapcontent
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-airgun\.views\.oscappolicy module
----------------------------------
-
-.. automodule:: airgun.views.oscappolicy
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-airgun\.views\.oscaptailoringfile module
-----------------------------------------
-
-.. automodule:: airgun.views.oscaptailoringfile
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-airgun\.views\.package module
------------------------------
-
-.. automodule:: airgun.views.package
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-airgun\.views\.partitiontable module
-------------------------------------
-
-.. automodule:: airgun.views.partitiontable
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-airgun\.views\.product module
------------------------------
-
-.. automodule:: airgun.views.product
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-airgun\.views\.provisioning\_template module
---------------------------------------------
-
-.. automodule:: airgun.views.provisioning_template
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-airgun\.views\.puppet\_class module
------------------------------------
-
-.. automodule:: airgun.views.puppet_class
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-airgun\.views\.puppet\_environment module
------------------------------------------
-
-.. automodule:: airgun.views.puppet_environment
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-airgun\.views\.redhat\_repository module
-----------------------------------------
-
-.. automodule:: airgun.views.redhat_repository
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-airgun\.views\.report\_template module
---------------------------------------
-
-.. automodule:: airgun.views.report_template
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-airgun\.views\.repository module
+:mod:`airgun.views.architecture`
 --------------------------------
 
-.. automodule:: airgun.views.repository
-    :members:
-    :undoc-members:
-    :show-inheritance:
+.. automodule:: airgun.views.architecture
+   :members:
 
-airgun\.views\.rhai module
---------------------------
+:mod:`airgun.views.audit`
+-------------------------
 
-.. automodule:: airgun.views.rhai
-    :members:
-    :undoc-members:
-    :show-inheritance:
+.. automodule:: airgun.views.audit
+   :members:
 
-airgun\.views\.role module
---------------------------
-
-.. automodule:: airgun.views.role
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-airgun\.views\.settings module
-------------------------------
-
-.. automodule:: airgun.views.settings
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-airgun\.views\.smart\_class\_parameter module
----------------------------------------------
-
-.. automodule:: airgun.views.smart_class_parameter
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-airgun\.views\.smart\_variable module
--------------------------------------
-
-.. automodule:: airgun.views.smart_variable
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-airgun\.views\.subnet module
+:mod:`airgun.views.bookmark`
 ----------------------------
 
-.. automodule:: airgun.views.subnet
-    :members:
-    :undoc-members:
-    :show-inheritance:
+.. automodule:: airgun.views.bookmark
+   :members:
 
-airgun\.views\.subscription module
-----------------------------------
-
-.. automodule:: airgun.views.subscription
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-airgun\.views\.sync\_status module
-----------------------------------
-
-.. automodule:: airgun.views.sync_status
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-airgun\.views\.syncplan module
-------------------------------
-
-.. automodule:: airgun.views.syncplan
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-airgun\.views\.task module
+:mod:`airgun.views.common`
 --------------------------
 
-.. automodule:: airgun.views.task
-    :members:
-    :undoc-members:
-    :show-inheritance:
+.. automodule:: airgun.views.common
+   :members:
 
-airgun\.views\.trend module
----------------------------
+:mod:`airgun.views.computeprofile`
+----------------------------------
 
-.. automodule:: airgun.views.trend
-    :members:
-    :undoc-members:
-    :show-inheritance:
+.. automodule:: airgun.views.computeprofile
+   :members:
 
-airgun\.views\.user module
---------------------------
+:mod:`airgun.views.computeresource`
+-----------------------------------
 
-.. automodule:: airgun.views.user
-    :members:
-    :undoc-members:
-    :show-inheritance:
+.. automodule:: airgun.views.computeresource
+   :members:
 
-airgun\.views\.usergroup module
+:mod:`airgun.views.configgroup`
 -------------------------------
 
-.. automodule:: airgun.views.usergroup
-    :members:
-    :undoc-members:
-    :show-inheritance:
+.. automodule:: airgun.views.configgroup
+   :members:
 
-airgun\.views\.virtwho\_configure module
+:mod:`airgun.views.containerimagetag`
+-------------------------------------
+
+.. automodule:: airgun.views.containerimagetag
+   :members:
+
+:mod:`airgun.views.contentcredential`
+-------------------------------------
+
+.. automodule:: airgun.views.contentcredential
+   :members:
+
+:mod:`airgun.views.contenthost`
+-------------------------------
+
+.. automodule:: airgun.views.contenthost
+   :members:
+
+:mod:`airgun.views.contentviewfilter`
+-------------------------------------
+
+.. automodule:: airgun.views.contentviewfilter
+   :members:
+
+:mod:`airgun.views.contentview`
+-------------------------------
+
+.. automodule:: airgun.views.contentview
+   :members:
+
+:mod:`airgun.views.dashboard`
+-----------------------------
+
+.. automodule:: airgun.views.dashboard
+   :members:
+
+:mod:`airgun.views.discoveredhosts`
+-----------------------------------
+
+.. automodule:: airgun.views.discoveredhosts
+   :members:
+
+:mod:`airgun.views.discoveryrule`
+---------------------------------
+
+.. automodule:: airgun.views.discoveryrule
+   :members:
+
+:mod:`airgun.views.domain`
+--------------------------
+
+.. automodule:: airgun.views.domain
+   :members:
+
+:mod:`airgun.views.errata`
+--------------------------
+
+.. automodule:: airgun.views.errata
+   :members:
+
+:mod:`airgun.views.filter`
+--------------------------
+
+.. automodule:: airgun.views.filter
+   :members:
+
+:mod:`airgun.views.hardware_model`
+----------------------------------
+
+.. automodule:: airgun.views.hardware_model
+   :members:
+
+:mod:`airgun.views.hostcollection`
+----------------------------------
+
+.. automodule:: airgun.views.hostcollection
+   :members:
+
+:mod:`airgun.views.hostgroup`
+-----------------------------
+
+.. automodule:: airgun.views.hostgroup
+   :members:
+
+:mod:`airgun.views.host`
+------------------------
+
+.. automodule:: airgun.views.host
+   :members:
+
+:mod:`airgun.views.http_proxy`
+------------------------------
+
+.. automodule:: airgun.views.http_proxy
+   :members:
+
+:mod:`airgun.views.job_invocation`
+----------------------------------
+
+.. automodule:: airgun.views.job_invocation
+   :members:
+
+:mod:`airgun.views.job_template`
+--------------------------------
+
+.. automodule:: airgun.views.job_template
+   :members:
+
+:mod:`airgun.views.ldapauthentication`
+--------------------------------------
+
+.. automodule:: airgun.views.ldapauthentication
+   :members:
+
+:mod:`airgun.views.lifecycleenvironment`
 ----------------------------------------
 
+.. automodule:: airgun.views.lifecycleenvironment
+   :members:
+
+:mod:`airgun.views.location`
+----------------------------
+
+.. automodule:: airgun.views.location
+   :members:
+
+:mod:`airgun.views.login`
+-------------------------
+
+.. automodule:: airgun.views.login
+   :members:
+
+:mod:`airgun.views.media`
+-------------------------
+
+.. automodule:: airgun.views.media
+   :members:
+
+:mod:`airgun.views.modulestream`
+--------------------------------
+
+.. automodule:: airgun.views.modulestream
+   :members:
+
+:mod:`airgun.views.organization`
+--------------------------------
+
+.. automodule:: airgun.views.organization
+   :members:
+
+:mod:`airgun.views.oscapcontent`
+--------------------------------
+
+.. automodule:: airgun.views.oscapcontent
+   :members:
+
+:mod:`airgun.views.oscappolicy`
+-------------------------------
+
+.. automodule:: airgun.views.oscappolicy
+   :members:
+
+:mod:`airgun.views.oscaptailoringfile`
+--------------------------------------
+
+.. automodule:: airgun.views.oscaptailoringfile
+   :members:
+
+:mod:`airgun.views.os`
+----------------------
+
+.. automodule:: airgun.views.os
+   :members:
+
+:mod:`airgun.views.package`
+---------------------------
+
+.. automodule:: airgun.views.package
+   :members:
+
+:mod:`airgun.views.partitiontable`
+----------------------------------
+
+.. automodule:: airgun.views.partitiontable
+   :members:
+
+:mod:`airgun.views.product`
+---------------------------
+
+.. automodule:: airgun.views.product
+   :members:
+
+:mod:`airgun.views.provisioning_template`
+-----------------------------------------
+
+.. automodule:: airgun.views.provisioning_template
+   :members:
+
+:mod:`airgun.views.puppet_class`
+--------------------------------
+
+.. automodule:: airgun.views.puppet_class
+   :members:
+
+:mod:`airgun.views.puppet_environment`
+--------------------------------------
+
+.. automodule:: airgun.views.puppet_environment
+   :members:
+
+:mod:`airgun.views.redhat_repository`
+-------------------------------------
+
+.. automodule:: airgun.views.redhat_repository
+   :members:
+
+:mod:`airgun.views.report_template`
+-----------------------------------
+
+.. automodule:: airgun.views.report_template
+   :members:
+
+:mod:`airgun.views.repository`
+------------------------------
+
+.. automodule:: airgun.views.repository
+   :members:
+
+:mod:`airgun.views.rhai`
+------------------------
+
+.. automodule:: airgun.views.rhai
+   :members:
+
+:mod:`airgun.views.role`
+------------------------
+
+.. automodule:: airgun.views.role
+   :members:
+
+:mod:`airgun.views.settings`
+----------------------------
+
+.. automodule:: airgun.views.settings
+   :members:
+
+:mod:`airgun.views.smart_class_parameter`
+-----------------------------------------
+
+.. automodule:: airgun.views.smart_class_parameter
+   :members:
+
+:mod:`airgun.views.smart_variable`
+----------------------------------
+
+.. automodule:: airgun.views.smart_variable
+   :members:
+
+:mod:`airgun.views.subnet`
+--------------------------
+
+.. automodule:: airgun.views.subnet
+   :members:
+
+:mod:`airgun.views.subscription`
+--------------------------------
+
+.. automodule:: airgun.views.subscription
+   :members:
+
+:mod:`airgun.views.syncplan`
+----------------------------
+
+.. automodule:: airgun.views.syncplan
+   :members:
+
+:mod:`airgun.views.sync_status`
+-------------------------------
+
+.. automodule:: airgun.views.sync_status
+   :members:
+
+:mod:`airgun.views.task`
+------------------------
+
+.. automodule:: airgun.views.task
+   :members:
+
+:mod:`airgun.views.trend`
+-------------------------
+
+.. automodule:: airgun.views.trend
+   :members:
+
+:mod:`airgun.views.usergroup`
+-----------------------------
+
+.. automodule:: airgun.views.usergroup
+   :members:
+
+:mod:`airgun.views.user`
+------------------------
+
+.. automodule:: airgun.views.user
+   :members:
+
+:mod:`airgun.views.virtwho_configure`
+-------------------------------------
+
 .. automodule:: airgun.views.virtwho_configure
-    :members:
-    :undoc-members:
-    :show-inheritance:
+   :members:

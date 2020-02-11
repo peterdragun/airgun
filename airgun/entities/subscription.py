@@ -44,7 +44,6 @@ class SubscriptionEntity(BaseEntity):
     @property
     def has_manifest(self):
         """Is there manifest present in current organization?
-
         :return: boolean value indicating whether manifest is present
             May be None if user can't verify reliably if manifest is
             uploaded or not due to missing permissions
