@@ -248,7 +248,7 @@ class SyncStatusTable(SatTable):
 
         :param node_path: a list or tuple representing the path to a node, for
             example: ('product1', 'repo1')
-        :return SyncStatusTableNode
+        :return: SyncStatusTableNode
         """
         parent_node = self.nodes
         node = None

@@ -643,6 +643,8 @@ class ActionDropdownWithCheckbox(ActionsDropdown):
 
 
 class Search(Widget):
+    """
+    """
     search_field = TextInput(locator=(
         ".//input[@id='search' or contains(@placeholder, 'Filter') or "
         "@ng-model='table.searchTerm' or contains(@ng-model, 'Filter')]"))

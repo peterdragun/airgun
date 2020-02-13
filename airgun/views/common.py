@@ -206,7 +206,7 @@ class LCESelectorGroup(ParametrizedView):
         """Shortcut to pass the value to included ``lce``
         :class:`airgun.widgets.LCESelector` widget. Usage remains the same as
         :class:`airgun.widgets.LCESelector` and
-        :class:`widgetastic.widget.ParametrizedView` required param is filled
+        `widgetastic.widget.ParametrizedView` required param is filled
         automatically from passed lifecycle environment's name.
 
         Example::
@@ -229,10 +229,10 @@ class LCESelectorGroup(ParametrizedView):
 
     def read(self):
         """Shortcut which returns value of included ``lce``
-        :class:`LCESelector` widget.
+        :class:`airgun.widgets.LCESelector` widget.
 
         Note that returned result will be wrapped in extra dict due to
-        :class:`widgetastic.widget.ParametrizedView` nature::
+        `widgetastic.widget.ParametrizedView` nature::
 
             {
                 'DEV': {'Library': False, 'DEV': True},
@@ -396,7 +396,7 @@ class SearchableViewMixin(WTMixin):
     :meth:`search` to your view. It's useful for _most_ entities list views
     where searchbox and results table are present.
 
-    Note that class which uses this mixin should have :attr:`table` attribute.
+    Note that class which uses this mixin should have `table` attribute.
     """
     searchbox = Search()
     welcome_message = Text("//div[@class='blank-slate-pf' or @id='welcome']")
