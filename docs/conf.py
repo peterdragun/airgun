@@ -31,15 +31,20 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.intersphinx',
     'sphinxcontrib.spelling',
+    'autoapi.extension',
 ]
+autoapi_dirs = ['../airgun']
 source_suffix = '.rst'
 master_doc = 'index'
 exclude_patterns = ['_build']
 nitpicky = True
 nitpick_ignore = [
+    ('py:attr', 'last_fill_data'),
+    ('py:attr', 'table'),
     ('py:class', 'widgetastic.browser.Browser'),
     ('py:class', 'widgetastic.widget.Table'),
     ('py:class', 'widgetastic.widget.View'),
+    ('py:class', 'widgetastic.widget.ParametrizedView'),
     ('py:class', 'navmazing.Navigate'),
     ('py:class', 'navmazing.NavigateStep'),
     ('py:class', 'airgun.views.common.BaseLoggedInView'),
@@ -50,7 +55,9 @@ nitpick_ignore = [
     ('py:meth', 'current_loc'),
     ('py:meth', 'select'),
     ('py:meth', 'fill_with'),
+    ('py:meth', 'fill'),
     ('py:meth', 'Widget.is_displayed'),
+    ('py:meth', 'Widget.read'),
     ('py:obj', 'widgetastic.widget.View')
 ]
 intersphinx_mapping = {

@@ -1,3 +1,4 @@
 flake8
-sphinx==1.6.7
+sphinx
 sphinxcontrib-spelling
+sphinx-autoapi
